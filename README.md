@@ -1,7 +1,7 @@
 tempmon
 =======
 
-Temperature Monitoring Dashboard
+Temperature Monitoring System
 
 === Dashboard ===
 
