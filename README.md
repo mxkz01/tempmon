@@ -7,9 +7,11 @@ This is the precursor to https://github.com/mxkz01/sitemon and is mainly here so
 
 === Dashboard ===
 
- and contains a really quick Bootstrap interface to show all sensors in the database, and whether there is an issue (over or under set thresholds). All changes to parameters need to happen from within the database itself.
+This contains a quick Bootstrap interface to show all sensors in the database, and whether there is an issue (over or under set thresholds). All changes to parameters need to happen from within the database itself.
 
 This also contains the submission scripts triggered from the Raspberry Pi nodes for submitting Temperature and SPL Data into the database.
+
+The functions.inc.php file is shared amongst both the Dashboard itself and the scripts used for uploading data from the Raspberry Pi nodes.
 
 === Alerts ===
 
