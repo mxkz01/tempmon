@@ -3,9 +3,11 @@ tempmon
 
 Temperature Monitoring System
 
+This is the precursor to https://github.com/mxkz01/sitemon and is mainly here so that the old system is backed up and patched as required. The majority of the functions and code will be refactored into the new project as above, however the scope of the new project is much larger than this one.
+
 === Dashboard ===
 
-This is the precursor to https://github.com/mxkz01/sitemon and contains a really quick Bootstrap interface to show all sensors in the database, and whether there is an issue (over or under set thresholds). All changes to parameters need to happen from within the database itself.
+ and contains a really quick Bootstrap interface to show all sensors in the database, and whether there is an issue (over or under set thresholds). All changes to parameters need to happen from within the database itself.
 
 This also contains the submission scripts triggered from the Raspberry Pi nodes for submitting Temperature and SPL Data into the database.
 
