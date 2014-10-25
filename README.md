@@ -5,7 +5,7 @@ Temperature Monitoring Dashboard
 
 === Dashboard ===
 
-This is the precursor to https://github.com/mxkz01/sitemon and contains a really quick Bootstrap interface to show all Sensors in the database, and whether there is an issue (over or under set thresholds). All changes to parameters need to happen from within the database itself.
+This is the precursor to https://github.com/mxkz01/sitemon and contains a really quick Bootstrap interface to show all sensors in the database, and whether there is an issue (over or under set thresholds). All changes to parameters need to happen from within the database itself.
 
 This also contains the submission scripts triggered from the Raspberry Pi nodes for submitting Temperature and SPL Data into the database.
 
