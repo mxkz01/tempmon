@@ -28,7 +28,7 @@ You will also need to make the cron script executable so they can run directly f
 
 chmod +x cron.sh
 
-The contents of our crontab for the above scripts are below -
+The contents of our crontab for the above script is below -
 # m h  dom mon dow   command
 */5 * * * * /var/www/html/temperature/cron/cron.sh
 

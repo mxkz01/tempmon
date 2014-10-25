@@ -4,7 +4,7 @@ For logging temperature we have been using a TEMPer USB Thermometer (http://pcse
 
 Instructions for getting the thermometer working on the Raspberry Pi can be found here -> http://verahill.blogspot.com.au/2013/12/532-temper-temperature-monitoring-usb.html
 
-We deviated from the tutorial after we were able to launch temper-poll and receive an output as a normal user. Our logging scripts as based on the ones found in the above tutorial - hats off to these geniuses.
+We deviated from the tutorial after we were able to launch temper-poll and receive an output as a normal user. Our logging scripts as based on the ones found in the above tutorial - hats off to the genius who developed temper-poll and the other genius who mashed together the original logging script.
 
 ==============
 

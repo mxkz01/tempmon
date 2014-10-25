@@ -4,7 +4,7 @@ For logging sound pressure levels (SPL) we have been using a Wensn Digital Sound
 
 Instructions, theory and the original code for getting the SPL meter working on the Raspberry Pi can be found here -> http://opensource.ebswift.com/RaspiMonitor/wensn/
 
-We have used the provided python scripts in the above link for logging the SPL measurements, but made improvements - hats off to this genius.
+We have used the provided python scripts in the above link for logging the SPL measurements and have made changes to log to our text file - hats off to the genius who reversed the SPL meter readings.
 
 ==============
 
@@ -15,7 +15,7 @@ Remember to change the server address and file locations in each script to suit 
 
 You can also turn on debugging in upload.sh by setting the DEBUGLOG location to /opt/spl/debug.txt instead of /dev/null (adjust to suit your environment)
 
-You will also need to make the upload script executable so they can run directly from cron
+You will also need to make the upload script executable so it can run directly from cron
 
 chmod +x upload.sh
 
