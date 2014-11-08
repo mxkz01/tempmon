@@ -283,7 +283,7 @@ function station_update($station_code,$station_ip){
 	while($row = mysqli_fetch_array($result)){
 		if ($row['station_code'] == $station_code){
 			if ($row['station_ip'] != $station_ip){
-				$sql2 = "UPDATE stations SET station_ip=$station_ip2 WHERE station_code='$station_code'";
+				$sql2 = "UPDATE stations SET station_ip='$station_ip2' WHERE station_code='$station_code'";
 				echo $sql2 . "\n";
 				if (!mysqli_query($con,$sql2)){
 					die('Error: ' . mysqli_error($con));
